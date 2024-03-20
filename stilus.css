@@ -1,0 +1,28 @@
+#tartalom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#tartalom  th,td{
+    border-bottom: 1px black solid;
+    border-collapse: collapse;
+    padding: 3px;
+}
+#tartalom th{
+    text-align: center;
+}
+#kepek{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#kepek img{
+    width: 350px;
+    height:250px;
+}
+.divek{
+    flex: 0 0 33%;
+}
+.kiv{
+    background-color: antiquewhite;
+}
